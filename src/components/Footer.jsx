@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className='bg-gray-900 text-white py-12'>
             <div className='max-w-7xl mx-auto px-4 grid grid-col-1 md: grid-cols-4 gap-8'>
                 <div>
-                    <h3>Real Estate Co.</h3>
+                    <h3>Emilio Co.</h3>
                     <p>Your trusted partener in finding the perfect home</p>
                 </div>
 
@@ -21,12 +21,11 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    <h4 className='font-bold mb-4'>Contact info</h4>
+                    <h4 className='font-bold mb-4'>Contatti</h4>
                     <ul className='space-y-2 text-gray-400'>
-                        <li>123 Real Estate Ave</li>
-                        <li>Los Angeles</li>
-                        <li>Contact real estate</li>
-                        <li>33333333333</li>
+                        <li>emiliosava6532423gmail.com</li>
+                        <li>3333333333</li>
+                        <li>Contact Emilio</li>
                     </ul>
                 </div>
 

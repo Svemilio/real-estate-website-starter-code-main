@@ -10,15 +10,15 @@ const Home = () => {
                 <div className='text-center text-white max-w-5xl px-4'>
                     <h1 className='text-5xl sm:text-6xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-sky-300 via-sky-300 to-indigo-300 bg-clip-text text-transparent tracking-tight p-3'>Where Luxury Meets Lifestyle</h1>
 
-                    <p className='text-lg md:text-2xl mb-8 text-gray-200'> Exclusive estates and architectural masterpieces in Southern Sampieri</p>
+                    <p className='text-lg md:text-2xl mb-8 text-gray-200'> Locazioni esclusive in Sicilia</p>
                     <div className='bg-white/30 p-8 rounded-3xl shadow-2xl backdrop-blur-md max-w-2xl mx-auto'>
                         <div className="flex flex-col md:flex-row gap-3">
                             <input type='text' placeholder='Search by location' className='flex-1 px-6 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-500 hover:bg-blue-50 focus:bg-white
                             text-black transition-colors duration-200' />
 
                             <select className='px-4 py-3 rounded-lg text-gray-700 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500'>
-                                <option value="">House</option>
-                                <option value="">Apartment</option>
+                                <option value="">Case</option>
+                                <option value="">Appartamenti</option>
                                 <option value="">Ville</option>
                             </select>
 
@@ -28,15 +28,15 @@ const Home = () => {
                         <div className='grid grid-cols-3 gap-3 mt-6'>
                             <div className='flex flex-col p-3 items-center bg-slate-50/20 rounded-lg transition-transform hover:scale-105 cursor-pointer'>
                                 <FaLocationDot className='text-blue-600 mb-2' />
-                                <span className='font-semibold text-white'>Pisciotto</span>
+                                <span className='font-semibold text-white'>Catania</span>
                             </div>
                             <div className='flex flex-col p-3 items-center bg-slate-50/20 rounded-lg transition-transform hover:scale-105 cursor-pointer'>
                                 <FaLocationDot className='text-blue-600 mb-2' />
-                                <span className='font-semibold text-white'>Marsa sicla</span>
+                                <span className='font-semibold text-white'>Taormina</span>
                             </div>
                             <div className='flex flex-col p-3 items-center bg-slate-50/20 rounded-lg transition-transform hover:scale-105 cursor-pointer'>
                                 <FaLocationDot className='text-blue-600 mb-2' />
-                                <span className='font-semibold text-white'>Patapata</span>
+                                <span className='font-semibold text-white'>Scicli</span>
                             </div>
                         </div>
                     </div>
